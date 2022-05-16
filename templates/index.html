@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/predict" method="post">
+  <label for="fname">variance:</label><br>
+  <input type="text" id="variance" name="variance" value=""><br>
+  <label for="lname">skewness:</label><br>
+  <input type="text" id="skewness" name="skewness" value=""><br><br>
+  <label for="fname">curtosis:</label><br>
+  <input type="text" id="curtosis" name="curtosis" value=""><br>
+  <label for="lname">entropy:</label><br>
+  <input type="text" id="entropy" name="entropy" value=""><br><br>
+  <input type="submit" value="Predict">
+</form> 
+
+<p>Result: {{ prediction }} </p>
+
+
+
+</body>
+</html>
